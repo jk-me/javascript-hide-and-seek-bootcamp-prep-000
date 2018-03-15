@@ -15,7 +15,7 @@ function increaseRankBy(n){
 
 function deepestChild(){
   var x = document.querySelector('div#grand-node div')
-  var n=[]
+  var n
   while (true){
     
     if (x[0]===undefined){
