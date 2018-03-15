@@ -22,7 +22,7 @@ function deepestChild(){
       return n
     }
    else{ 
-     n=x
+     n=[x]
      x=x[0]
 
   }
