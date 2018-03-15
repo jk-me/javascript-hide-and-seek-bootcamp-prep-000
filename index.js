@@ -22,8 +22,8 @@ function deepestChild(){
       return n
     }
    else{ 
-     n=[x]
-     x=x[0]
+     n=x
+     x=x.querySelector('div')
 
   }
 }}
