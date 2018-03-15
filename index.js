@@ -18,7 +18,7 @@ function deepestChild(){
   var n =x
   while (true){
     
-    if (x===undefined){
+    if (x===null){
       return n
     }
    else{ 
